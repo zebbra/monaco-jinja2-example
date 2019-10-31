@@ -4,7 +4,6 @@ module.exports = {
   configureWebpack: {
     plugins: [
       new MonacoEditorPlugin({
-        languages: [],
         features: []
       })
     ]
